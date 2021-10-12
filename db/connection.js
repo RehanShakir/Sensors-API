@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://srv-captain--sensors-db/sensors?authMode=scram-sha1", {
+  .connect("mongodb://srv-captain--sensors-db/mydatabase", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

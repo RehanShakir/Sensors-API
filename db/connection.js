@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://srv-captain--sensors-db/sensors", {
+  .connect("mongodb://srv-captain--my-mongodb/mydatabase", {
+    useMongoClient: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
